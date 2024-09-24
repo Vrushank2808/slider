@@ -10,6 +10,7 @@ function nextSlide() {
     updateSlide()
 }
 
+
 function prevSlide() {
     currentSlide = (currentSlide - 1 + slideCount) % slideCount
     updateSlide()
